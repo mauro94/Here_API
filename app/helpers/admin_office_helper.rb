@@ -1,0 +1,2 @@
+module AdminOfficeHelper
+end

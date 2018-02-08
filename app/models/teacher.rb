@@ -8,5 +8,5 @@ class Teacher < ApplicationRecord
 
   validates :faculty_id, :encrypted_password, :email, :name, :last_name, presence: true
   validates :faculty_id, format: { with: /\L[0-9]/, message: "Formato de matricula incorrecto" }, length: { is: 8, wrong_length: "Longitud de matricula incorrecto" }
-  validates :email, format: { with: /[lL][0-9._%+-]+@itesm\.mx/, message: "Formato de correo incorrecto" }
+  validates :email, format: { with: /[lL][0-9]+@itesm\.mx/, message: "Formato de correo incorrecto" }
 end

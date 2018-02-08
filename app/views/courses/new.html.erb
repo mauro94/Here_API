@@ -1,0 +1,13 @@
+<div class="row" style="padding-top:20px; padding-bottom:20px;">
+  <div class="col-md-11">
+      <h1 style="font-size:300%;"><strong>Here</strong></h1>
+      <h1 style="font-size:200%;"><strong>Admin Office - New Course</strong></h1>
+  </div>
+  <div class="col-md-1" style="padding-top:10px;">
+    <%=link_to "Sign Out", "/god/sign_out", :class => "btn btn-dark", :role => "button"%>
+  </div>
+
+  <%= render 'form', course: @course %>
+
+  <%= link_to 'Back', courses_path %>
+</div>

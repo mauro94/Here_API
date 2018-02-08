@@ -1,0 +1,27 @@
+ @import "bootstrap";
+
+ html, body {
+    margin: 0;
+    height: 100%;
+ }
+
+ .container {
+   height:100%;
+ }
+
+ footer {
+  bottom: 0px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+ }
+
+ span, .badge {
+   right: 20px;
+   position: absolute;
+ }
+
+ #button_new {
+  right: 20px; 
+  position: absolute;
+ }
